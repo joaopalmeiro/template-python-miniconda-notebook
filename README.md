@@ -1,6 +1,8 @@
 # template-python-miniconda-notebook
 
-Opinionated Python + Miniconda template for new notebooks.
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+
+Opinionated [Python](https://www.python.org/) + [Miniconda](https://docs.anaconda.com/free/miniconda/) template for new notebooks.
 
 ## Development
 
@@ -24,6 +26,18 @@ conda list
 
 ```bash
 jupyter lab
+```
+
+```bash
+ruff check
+```
+
+```bash
+ruff check --fix
+```
+
+```bash
+ruff format
 ```
 
 ```bash

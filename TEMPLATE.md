@@ -12,7 +12,6 @@
   - https://docs.python.org/3.10/library/ensurepip.html
 - https://github.com/joaopalmeiro/altair-kitchen-sink
 - Ruff:
-  - https://docs.astral.sh/ruff/faq/#does-ruff-support-jupyter-notebooks
   - https://github.com/astral-sh/ruff/releases
 - JupyterLab:
   - https://jupyterlab.readthedocs.io/en/latest/getting_started/changelog.html
@@ -28,4 +27,8 @@ python -m ensurepip --help
 
 ```bash
 python -m ensurepip --version
+```
+
+```bash
+which ruff
 ```
