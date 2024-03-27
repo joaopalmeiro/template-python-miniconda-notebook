@@ -1,8 +1,10 @@
-# https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#create-env-file-manually
+# https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually
+# https://mamba.readthedocs.io/en/latest/user_guide/troubleshooting.html#using-the-defaults-channels
 
 name: template-python-miniconda-notebook
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
   # https://anaconda.org/conda-forge/python?version=3.10.14
   - python=3.10.14
