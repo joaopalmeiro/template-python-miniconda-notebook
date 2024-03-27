@@ -6,6 +6,9 @@
   - https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
   - https://conda.io/projects/conda/en/latest/commands/config.html
   - https://github.com/conda/conda/issues/12010
+  - https://github.com/mariusvniekerk/condax
+  - https://github.com/conda/conda-lock:
+    - https://github.com/conda/conda-lock?tab=readme-ov-file#platform-specification
 - Python:
   - https://www.python.org/downloads/release/python-31014/ ("Release Date: March 19, 2024")
   - https://pip.pypa.io/en/stable/news/
