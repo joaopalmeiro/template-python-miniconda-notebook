@@ -4,6 +4,8 @@
   - https://docs.anaconda.com/free/miniconda/
   - https://github.com/conda/conda/blob/24.1.2/tests/env/support/advanced-pip/environment.yml
   - https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
+  - https://conda.io/projects/conda/en/latest/commands/config.html
+  - https://github.com/conda/conda/issues/12010
 - Python:
   - https://www.python.org/downloads/release/python-31014/ ("Release Date: March 19, 2024")
   - https://pip.pypa.io/en/stable/news/
@@ -31,4 +33,12 @@ python -m ensurepip --version
 
 ```bash
 which ruff
+```
+
+```bash
+conda config --show
+```
+
+```bash
+conda config --show-sources
 ```
